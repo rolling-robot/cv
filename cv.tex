@@ -1,0 +1,146 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{Peter}
+\familyname{Mukhachev}
+\title{Curriculum Vitae} 
+\address{58, 17 Anokhin st.}{140182 Zhukovsky, Russia} 
+\mobile{+7~(968)~88~55~987} 
+\email{mukhachev@phystech.edu} 
+\extrainfo{additional information} 
+\photo[64pt][0.4pt]{002_sm.jpg}
+\social[linkedin]{Peter Mukhachev}
+%\quote{Some quote (optional)}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2010}{Bachelor degree}{Moscow Institute of Physics and Technology}{Dolgoprudny}{}{Distinction}  % arguments 3 to 6 can be left empty
+\cvitem{title}{ \emph{Long wave instability development in the laminar boundary layer near porous wall in supersonic flow. Asymptotic analysis} }
+\cventry{2012}{Master degree}{Moscow Institute of Physics and Technology}{Dolgoprudny}{}{Distinction}
+\cvitem{title}{ \emph{Long wave instability development in the laminar boundary layer near porous wall. Asymptotic analysis} }
+\cventry{2016}{Workshop}{International Institute of Applied Systems Analysis}{Laxenburg}{}{Young scientists workshop on systems analysis co-organized with the Russian Academy of Sciences and the Ministry of Education of the Russian Federation}
+\cventry{2016}{Business acceleration program}{Moscow Institute of Physics and Technology}{}{}{In cooperation with Berlin Adlershof, GTEC, Berlin Partner}
+
+\subsection{Languages}
+\cvitemwithcomment{English}{Fluent}{Scientific vocabulary, fluid mechanics, aircraft dynamics, technical documentation, business presentations}
+\cvitemwithcomment{Spanish}{Pre-intermediate}{General purpose}
+
+\section{Work experience}
+\subsection{Vocational}
+\cventry{2010-2012}{Engeneer}{Central Institute of Aerohydromechanics}{Zhukovsky}{}{Investigation of disturbance development in laminar boundary layers near porous surfaces at high Reynolds numbers at subsonic and supersonic incident flow speeds.
+  \begin{itemize}
+  \item Triple-deck theory knowledge
+  \item Numerical methods to solve partial differential equations using Matlab
+  \item LaTeX publication preparation
+  \end{itemize}}
+
+\cventry{2012-2013}{Software development}{MonitorSoft, Ltd}{Zhukovsky}{}{
+  \begin{itemize}
+  \item{Airport ground traffic modelling and trajectory optimization using linear programming in the context of internatial investigation project ``4-Dimensional cooperation: guidance and control'' that studied alternative air traffic management approach.}
+  \item{Development of flying control officer station for automated flight analysis. Main language used: PyQt.}
+  \item{Redhat cluster administration for use in air traffic control applications}
+  \item{Nagios-based system set up for cluster health monitoring}
+\end{itemize}}
+
+\cventry{2012-2014}{Analyst}{Engineering, Ltd}{Domodedovo}{}{
+  \begin{itemize}
+  \item {Epic E1000 windtunnel test coordination, results treatment}
+  \item {Epic E1000 cowling optimization project coordination}
+  \item International communication: Honeywell, Pratt\&Whitney
+  \item {Potential market analysis for Let L-23 glider production restoration}
+\end{itemize}}
+
+\cventry{2015-2016}{Science fellow}{Moscow Institute of Physics and Technology}{Laboratory of autonomous Systems}{Dolgoprudnuy}{
+  Early-stage project development in underwater robotics, technology scouting:
+  \begin{itemize}
+  \item Underwater drone for GoPro camera
+  \item Underwater monitoring complex based on underwater glider
+  \end{itemize}
+  International communications:
+  \begin{itemize}
+  \item Sharif University of Technology
+  \item Hyundai Motor Company
+  \item International Institute of Applied Systems Analysis
+  \end{itemize}
+  Conferences and exhibitions:
+  \begin{itemize}
+%  \item Skolkovo Robotics 2015
+%  \item Open Innovations 2015
+  \item ICT-2015
+  \item Resque Innovations 2016
+  \item EcoTech 2016
+  \end{itemize}
+  Work experience:
+  \begin{itemize}
+  \item Microcontroller programming
+  \item SLAM algorithms
+  \item Introduction to computer vision
+  \item Sensor driver development for ROS (Robot operating system):
+    https://github.com/rolling-robot/adafruit\_imu
+  \item Work with different kinds of sensors
+  \end{itemize}
+}
+\subsection{Sport}
+\cventry{2009-2012}{Aikido instructor}{Sei-Shin Aikiclub}{}{Zhukovsky}{
+  Children and adult groups, not as a part of federation}
+\subsection{Clown, Mime}
+\cventry{2015-2017}{Artist}{DojProject}{}{Moscow}{Numerous festivals, including:
+  \begin{itemize}
+  \item 2015 --- Tour to Guangzhou
+  \item 2016 --- Tour to Shenzhen
+  \item 2016 --- PermInterFest
+  \item 2016 --- Theater courtyard in Tula
+  \end{itemize}
+}
+\section{Additional skills}
+\begin{itemize}
+\item Pitching and presentations
+\item Team and individual work
+\item Organizational qualities
+\item Microcontrollers programming
+\end{itemize}
+
+\section{Interests}
+\begin{itemize}
+\item Deep interest in understanding the internals of tools I use
+\item Numerical methods
+\item SLAM algorithms
+\item Computer vision
+\item Boundary layer
+\item Gas mechanics
+\item Flow stability
+\item Asymptotic methods in gas mechanics
+\item ROS
+\item Linux
+  \end{itemize}
+\section{Hobbies}
+\cvitem{since 2007}{Kite skiing}
+\cvitem{since 2009}{Sailing}
+\cvitem{since 2014}{Music, piano accordion}
+
+
+%% ...
+
+%% A publications list
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications} % a bibtex file containing the list of publications
+
+\end{document}
